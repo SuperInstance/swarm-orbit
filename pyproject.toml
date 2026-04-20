@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swarm-orbit"
+version = "0.1.0"
+description = "Task orbit assignment for agent swarms — gravity wells match agents to tasks"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{name = "Oracle1", email = "oracle1@cocapn.ai"}]
+keywords = ["swarm", "orbit", "task-assignment", "agent", "cocapn"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/SuperInstance/swarm-orbit"
